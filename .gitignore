@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# eBPF compiled files
+*.o
+*.skel.h
+*.bpf.o
+
+# Rust (if you have it)
+user-agent/target/
+user-agent/Cargo.lock
+**/*.rs.bk
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Secrets (DO NOT COMMIT)
+*.pem
+*.key
+*.crt
+.env

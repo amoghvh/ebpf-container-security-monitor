@@ -1,0 +1,12 @@
+[package]
+name = "ebpf-container-security"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libbpf-rs = "0.21"
+libbpf-sys = { version = "1.2.0", features = ["static"] }
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.10"
+plain = "0.2"

@@ -15,12 +15,12 @@ build/
 *.skel.h
 *.bpf.o
 
-# Rust (if you have it)
+
 user-agent/target/
 user-agent/Cargo.lock
 **/*.rs.bk
 
-# IDE
+
 .vscode/
 .idea/
 *.swp

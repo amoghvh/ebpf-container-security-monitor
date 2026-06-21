@@ -26,8 +26,8 @@ sudo python3 final_monitor.py
 Example Output
 text
 
-🐳 14:50:05 [CONTAINER:abc123] PID: 12345 CMD: ls
-🐳 14:50:10 [CONTAINER:abc123] PID: 12346 CMD: whoami
+ 14:50:05 [CONTAINER:abc123] PID: 12345 CMD: ls
+ 14:50:10 [CONTAINER:abc123] PID: 12346 CMD: whoami
 🚨 14:50:15 [CONTAINER:abc123] PID: 12347 CMD: chroot ⚠️ ALERT!
 
 Files
